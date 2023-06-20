@@ -9,7 +9,9 @@
 1. Date.now()方法
 2. window.requestAnimationFrame()
 
-通过组件传入的倒计时时间+当前 Date.now()，可以得到倒计时结束的时间戳 endTime。每次倒计时，不断比较当前的 Date.now()和 endTime，得到剩余倒计时 remainTime，再把 remainTime 绘制到页面上。重复如此，直至 Date.now()===endTime 3. 通过组合式函数和 ref，向父组件返回有状态的数据
+通过组件传入的倒计时时间+当前 Date.now()，可以得到倒计时结束的时间戳 endTime。每次倒计时，不断比较当前的 Date.now()和 endTime，得到剩余倒计时 remainTime，再把 remainTime 绘制到页面上。重复如此，直至 Date.now()===endTime
+
+3.  通过组合式函数和 ref，向父组件返回有状态的数据
 
 ## issues
 
